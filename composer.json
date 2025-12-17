@@ -1,5 +1,5 @@
 {
-    "name": "dalsochio/env-exporter",
+    "name": "tofuma/env-exporter",
     "description": "Generate .env files from example templates using system environment variables",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dalsochio\\EnvExporter\\": "src/"
+            "Tofuma\\EnvExporter\\": "src/"
         }
     },
     "bin": [

@@ -53,7 +53,7 @@ export APP_NAME=Laravel
 ## Installation
 
 ```bash
-composer require dalsochio/env-exporter
+composer require tofuma/env-exporter
 ```
 
 ## Usage
@@ -63,7 +63,7 @@ composer require dalsochio/env-exporter
 ```php
 <?php
 
-use Dalsochio\EnvExporter\EnvExporter;
+use Tofuma\EnvExporter\EnvExporter;
 
 // Generate .env file from .env.example
 EnvExporter::generate('.env.example', '.env');

@@ -21,7 +21,7 @@ if (!$autoloaded) {
     exit(1);
 }
 
-use Dalsochio\EnvExporter\EnvExporter;
+use Tofuma\EnvExporter\EnvExporter;
 
 // Help
 function printUsage(): void
